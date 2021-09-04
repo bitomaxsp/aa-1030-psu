@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Akai-1030 PSU A5-5309 (TP-N88-S)"
+Title "Akai-1030 PSU A5-5309 4ED (TP-N88-S)"
 Date "2021-07-04"
-Rev "4ED"
+Rev "Rev.B"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -164,7 +164,7 @@ U 1 1 60E26055
 P 11400 3500
 F 0 "J2" H 11428 3526 50  0000 L CNN
 F 1 "#2" H 11428 3435 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 11400 3500 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 11400 3500 50  0001 C CNN
 F 3 "~" H 11400 3500 50  0001 C CNN
 	1    11400 3500
 	1    0    0    -1  
@@ -178,7 +178,7 @@ U 1 1 60E26A27
 P 11400 4750
 F 0 "J3" H 11428 4776 50  0000 L CNN
 F 1 "#3" H 11428 4685 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 11400 4750 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 11400 4750 50  0001 C CNN
 F 3 "~" H 11400 4750 50  0001 C CNN
 	1    11400 4750
 	1    0    0    -1  
@@ -255,7 +255,7 @@ U 1 1 60E2087D
 P 11400 2500
 F 0 "J1" H 11428 2526 50  0000 L CNN
 F 1 "#1" H 11428 2435 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 11400 2500 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 11400 2500 50  0001 C CNN
 F 3 "~" H 11400 2500 50  0001 C CNN
 	1    11400 2500
 	1    0    0    -1  
@@ -301,7 +301,7 @@ U 1 1 60E34CBA
 P 3800 2500
 F 0 "J16" H 3692 2275 50  0000 C CNN
 F 1 "30.6VDC" H 3692 2366 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 3800 2500 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 3800 2500 50  0001 C CNN
 F 3 "~" H 3800 2500 50  0001 C CNN
 	1    3800 2500
 	-1   0    0    1   
@@ -423,7 +423,6 @@ F 3 "" H 6250 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6250 4050 6250 3950
-Connection ~ 6250 3950
 Wire Wire Line
 	6250 3950 6800 3950
 Wire Wire Line
@@ -469,7 +468,7 @@ U 1 1 60E629AE
 P 4050 4300
 F 0 "J15" H 3942 4075 50  0000 C CNN
 F 1 "#15" H 3942 4166 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 4050 4300 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 4050 4300 50  0001 C CNN
 F 3 "~" H 4050 4300 50  0001 C CNN
 	1    4050 4300
 	-1   0    0    1   
@@ -484,7 +483,7 @@ U 1 1 60E69ED7
 P 11400 6150
 F 0 "J4" H 11428 6176 50  0000 L CNN
 F 1 "#4" H 11428 6085 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 11400 6150 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 11400 6150 50  0001 C CNN
 F 3 "~" H 11400 6150 50  0001 C CNN
 	1    11400 6150
 	1    0    0    -1  
@@ -512,7 +511,7 @@ U 1 1 60E75E6E
 P 7100 6150
 F 0 "J12" H 6992 5925 50  0000 C CNN
 F 1 "#12" H 6992 6016 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 7100 6150 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 7100 6150 50  0001 C CNN
 F 3 "~" H 7100 6150 50  0001 C CNN
 	1    7100 6150
 	-1   0    0    1   
@@ -533,7 +532,7 @@ U 1 1 60E7FA1F
 P 7950 7000
 F 0 "J13" H 7978 7026 50  0000 L CNN
 F 1 "#13" H 7978 6935 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 7950 7000 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 7950 7000 50  0001 C CNN
 F 3 "~" H 7950 7000 50  0001 C CNN
 	1    7950 7000
 	1    0    0    -1  
@@ -670,7 +669,7 @@ U 1 1 60EC0D4E
 P 5600 7350
 F 0 "J9.2" H 5628 7376 50  0000 L CNN
 F 1 "#9.2" H 5628 7285 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 5600 7350 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 5600 7350 50  0001 C CNN
 F 3 "~" H 5600 7350 50  0001 C CNN
 	1    5600 7350
 	1    0    0    -1  
@@ -681,7 +680,7 @@ U 1 1 60EC128E
 P 5600 10150
 F 0 "J10.2" H 5628 10176 50  0000 L CNN
 F 1 "#10.2" H 5628 10085 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 5600 10150 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 5600 10150 50  0001 C CNN
 F 3 "~" H 5600 10150 50  0001 C CNN
 	1    5600 10150
 	1    0    0    -1  
@@ -692,7 +691,7 @@ U 1 1 60EC7EB7
 P 6200 8600
 F 0 "J5" H 6228 8626 50  0000 L CNN
 F 1 "#5" H 6228 8535 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 6200 8600 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 6200 8600 50  0001 C CNN
 F 3 "~" H 6200 8600 50  0001 C CNN
 	1    6200 8600
 	1    0    0    -1  
@@ -703,7 +702,7 @@ U 1 1 60EC81A4
 P 2550 8800
 F 0 "J11.2" H 2442 8575 50  0000 C CNN
 F 1 "#11.2" H 2442 8666 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 2550 8800 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 2550 8800 50  0001 C CNN
 F 3 "~" H 2550 8800 50  0001 C CNN
 	1    2550 8800
 	-1   0    0    1   
@@ -722,7 +721,7 @@ U 1 1 60ED0C28
 P 6200 8800
 F 0 "J6" H 6228 8826 50  0000 L CNN
 F 1 "#6" H 6228 8735 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 6200 8800 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 6200 8800 50  0001 C CNN
 F 3 "~" H 6200 8800 50  0001 C CNN
 	1    6200 8800
 	1    0    0    -1  
@@ -733,7 +732,7 @@ U 1 1 60ED0F9D
 P 6200 9000
 F 0 "J7" H 6228 9026 50  0000 L CNN
 F 1 "#7" H 6228 8935 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 6200 9000 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 6200 9000 50  0001 C CNN
 F 3 "~" H 6200 9000 50  0001 C CNN
 	1    6200 9000
 	1    0    0    -1  
@@ -754,7 +753,7 @@ U 1 1 60ED1340
 P 6200 9200
 F 0 "J8" H 6228 9226 50  0000 L CNN
 F 1 "#8" H 6228 9135 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 6200 9200 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 6200 9200 50  0001 C CNN
 F 3 "~" H 6200 9200 50  0001 C CNN
 	1    6200 9200
 	1    0    0    -1  
@@ -893,9 +892,6 @@ F 3 "~" H 6150 3950 50  0001 C CNN
 	1    5950 3950
 	1    0    0    -1  
 $EndComp
-Connection ~ 5950 3950
-Wire Wire Line
-	5950 3950 6250 3950
 $Comp
 L Connector:TestPoint TP8
 U 1 1 60F1DEC3
@@ -1007,13 +1003,13 @@ U 1 1 60F68EEF
 P 8650 1550
 F 0 "J14" H 8542 1325 50  0000 C CNN
 F 1 "#14" H 8542 1416 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 8650 1550 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 8650 1550 50  0001 C CNN
 F 3 "~" H 8650 1550 50  0001 C CNN
 	1    8650 1550
 	-1   0    0    1   
 $EndComp
 Text Notes 9800 2000 0    50   ~ 0
-Red wire in the original\n
+Red wire in the original 1030\n
 Connection ~ 9750 2850
 Wire Wire Line
 	9750 2850 9750 2500
@@ -1093,7 +1089,7 @@ U 1 1 61035C39
 P 4650 2300
 F 0 "J18" V 4588 2212 50  0000 R CNN
 F 1 "#18" V 4497 2212 50  0000 R CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 4650 2300 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 4650 2300 50  0001 C CNN
 F 3 "~" H 4650 2300 50  0001 C CNN
 	1    4650 2300
 	0    -1   -1   0   
@@ -1104,7 +1100,7 @@ U 1 1 6103B0F3
 P 5600 7150
 F 0 "J9.1" H 5628 7176 50  0000 L CNN
 F 1 "#9.1" H 5628 7085 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 5600 7150 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 5600 7150 50  0001 C CNN
 F 3 "~" H 5600 7150 50  0001 C CNN
 	1    5600 7150
 	1    0    0    -1  
@@ -1118,7 +1114,7 @@ U 1 1 61040F2A
 P 5600 10350
 F 0 "J10.1" H 5628 10376 50  0000 L CNN
 F 1 "#10.1" H 5628 10285 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 5600 10350 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 5600 10350 50  0001 C CNN
 F 3 "~" H 5600 10350 50  0001 C CNN
 	1    5600 10350
 	1    0    0    -1  
@@ -1132,7 +1128,7 @@ U 1 1 61046EA0
 P 2550 9100
 F 0 "J11.1" H 2442 8875 50  0000 C CNN
 F 1 "#11.1" H 2442 8966 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 2550 9100 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 2550 9100 50  0001 C CNN
 F 3 "~" H 2550 9100 50  0001 C CNN
 	1    2550 9100
 	-1   0    0    1   
@@ -1189,7 +1185,7 @@ U 1 1 60E60693
 P 3800 5050
 F 0 "J17" H 3692 4825 50  0000 C CNN
 F 1 "12.2V" H 3692 4916 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 3800 5050 50  0001 C CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 3800 5050 50  0001 C CNN
 F 3 "~" H 3800 5050 50  0001 C CNN
 	1    3800 5050
 	-1   0    0    1   
@@ -1250,4 +1246,8 @@ Text Notes 8100 7850 0    79   ~ 0
 Grounded holes to have better chassis contact
 Text Notes 8500 1250 0    50   ~ 0
 WHT-PNK double wire.\nWhite to Filter PC board.
+Connection ~ 6250 3950
+Connection ~ 5950 3950
+Wire Wire Line
+	5950 3950 6250 3950
 $EndSCHEMATC
